@@ -18,7 +18,7 @@ x-common-label:
 services:
   etcd:
     << : *default-common
-    image: ${LNMP_BUILD_DOCKER_IMAGE_PREFIX:-khs1994}/etcd:v${LNMP_ETCD_VERSION:-3.4.1}
+    image: ${LNMP_BUILD_DOCKER_IMAGE_PREFIX:-khs1994}/etcd:v${LNMP_ETCD_VERSION:-3.4.3}
     networks:
       - frontend
       - backend
